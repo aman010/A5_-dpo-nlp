@@ -5,10 +5,13 @@
 
 ![Web image](https://github.com/aman010/A5_-dpo-nlp/blob/main/Screenshot%20from%202025-03-01%2013-15-09.png)
 
+Tensorboard tracking , in the notebook i wad not able to resolve the issue with validation scores just added a print statment in evaluation loop,
+that could be the one of the reason because evaluation score is not visible on tensorboard
 
 
 Following Link to the GPT2-DPO model
 https://huggingface.co/Aman010/GPT2-DPO/tree/main
+
 
 
 
