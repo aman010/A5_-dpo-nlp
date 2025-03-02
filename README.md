@@ -9,8 +9,9 @@ Tensorboard tracking , in the notebook i wad not able to resolve the issue with 
 that could be the one of the reason because evaluation score is not visible on tensorboard
 
 
-Following Link to the GPT2-DPO model
-https://huggingface.co/Aman010/GPT2-DPO/tree/main
+Following Link to the GPT2-DPO model and config file
+* https://huggingface.co/Aman010/GPT2-DPO/tree/main
+* https://huggingface.co/Aman010/GPT2-DPO/blob/main/config.json
 
 
 
