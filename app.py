@@ -8,6 +8,8 @@ Created on Sun Mar  2 15:32:04 2025
 
 import streamlit as st
 from transformers import GPT2LMHeadModel, GPT2Tokenizer
+from huggingface_hub import hf_hub_download
+from huggingface_hub import login
 
 # Load the pre-trained model and tokenizer from Hugging Face
 model_name = "gpt2"  # You can change this to a larger model like "gpt2-medium", "gpt2-large", or "gpt2-xl"
