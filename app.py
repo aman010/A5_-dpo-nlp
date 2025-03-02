@@ -12,8 +12,10 @@ from transformers import GPT2LMHeadModel, GPT2Tokenizer
 # Load the pre-trained model and tokenizer from Hugging Face
 model_name = "gpt2"  # You can change this to a larger model like "gpt2-medium", "gpt2-large", or "gpt2-xl"
 #tag of the name from huggyface
-model_name = "Aman010/GPT2-DPO"
-model = GPT2LMHeadModel.from_pretrained(model_name)
+model_id = "Aman010/GPT2-DPO"
+model_path = hf_hub_download(repo_id= model_id, filename="DPO-GPT2.bin")
+model = torch.load(model_path, weights_only=False)
+# model = GPT2LMHeadModel.from_pretrained(model_name)
 tokenizer = GPT2Tokenizer.from_pretrained("gpt2")
 
 # Function to generate text using the Hugging Face GPT model
